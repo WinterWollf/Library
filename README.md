@@ -116,6 +116,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ## Contact
 
-For any inquiries or feedback, please contact project author.
+For any inquiries or feedback, feel free to reach out to the project author:
+- **GitHub**: [WinterWollf](https://github.com/WinterWollf)
 
 ---
