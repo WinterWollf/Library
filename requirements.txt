@@ -1,0 +1,5 @@
+tkcalendar
+mysql-connector-python
+pymysql
+pathlib
+tkinter

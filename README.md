@@ -1,26 +1,105 @@
-# Library System
+# Library Management System
 
-A desktop application for managing a library created in Python using the Tkinter library.
+## Description
+
+Library Management System is a comprehensive application designed to manage library operations efficiently. It provides functionalities for book management, user management, book rentals, returns, generating reports and generating QR codes for books. The application is built using Python and Tkinter for the GUI, with MySQL as the database backend.
+
+## Technologies Used
+
+- **Python**
+- **Tkinter**
+- **MySQL**
+- **tkcalendar**
+- **pymysql**
+- **pathlib**
 
 ## Features
 
-- **Email Notifications**: The application allows sending confirmation emails for book loans and returns to users' email addresses.
-- **QR Code Generation**: Books are marked with unique QR codes, enabling easy identification.
-- **Statistics**: The application collects and displays various statistics related to book loans and returns.
-- **Comprehensive Library System Functionality**: The application enables the addition and management of readers, along with many other features.
-- **Database Integration**: The system is connected to an SQL database.
-- **Backup Procedure**: The application includes a backup procedure to ensure data safety and integrity.
+### User Management
+- **Add Reader**: Allows librarians to add new readers to the system.
+- **Search User**: Provides functionality to search for users in the database.
 
-## Technologies
+### Book Management
+- **Add Book**: Enables librarians to add new books to the library.
+- **Search Book**: Allows searching for books in the library.
+- **Book Overview**: Displays detailed information about a selected book.
 
-- Python 3.x
-- Tkinter
-- SQL
+### Rental Management
+- **Add Rental**: Facilitates the process of renting out books to readers.
+- **Return Book**: Manages the return of rented books.
 
+### Reports and Backup
+- **Generate QR Code**: Generates QR codes for books.
+- **Generate Report**: Creates reports on various library metrics.
+- **Backup**: Backs up the library database.
 
-![LoginPage](DB_Project/Assets/README/loginPage.png)
+## Prerequisites
 
-![BookOverview](DB_Project/Assets/README/bookOverview.png)
+Before running the application, ensure you have the following installed:
 
-![ReturnMail](DB_Project/Assets/README/returnMail.png)
+- Python >3.11
+- MySQL Server
+- Required Python packages (listed in requirements.txt)
 
+## Installation and Setup
+
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/WinterWollf/Library.git
+   cd Library
+   ```
+
+2. **Install Required Packages**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+3. **Set Up the Database**
+   - Create a MySQL database named `library`.
+   - Execute the SQL commands in `src/Assets/Starting Commands (English).sql` to set up the necessary tables and initial data.
+
+4. **Run the Application**
+   ```sh
+   python src/main.py
+   ```
+
+## Screenshots
+
+Here are some screenshots showcasing the main features of the application:
+
+### Login Page
+![Login Page](screenshots/loginPage.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Add Book
+![Add Book](screenshots/addBook.png)
+
+### Book Overview
+![Book Overview](screenshots/bookOverview.png)
+
+### Book Search
+![Book Search](screenshots/bookSearch.png)
+
+### Mail
+![Mail](screenshots/mail.png)
+
+### QR Code
+![QR Code](screenshots/QRCode.png)
+
+### Report
+![Report](screenshots/raport.png)
+
+### Backup
+![Backup](screenshots/backup.png)
+
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License - see the [LICENSE](LICENSE.txt) file for details.
+
+## Contact
+
+For any inquiries or feedback, please contact project author.
+
+---
